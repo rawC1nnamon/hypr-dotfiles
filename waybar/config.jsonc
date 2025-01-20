@@ -1,0 +1,114 @@
+/* -------------------------------------------------------------------------------------
+ __      __               ___.                                       _____.__        
+/  \    /  \_____  ___.__.\_ |__ _____ _______    ____  ____   _____/ ____\__| ____  
+\   \/\/   /\__  \<   |  | | __ \\__  \\_  __ \ _/ ___\/  _ \ /    \   __\|  |/ ___\ 
+ \        /  / __ \\___  | | \_\ \/ __ \|  | \/ \  \__(  <_> )   |  \  |  |  / /_/  >
+  \__/\  /  (____  / ____| |___  (____  /__|     \___  >____/|___|  /__|  |__\___  / 
+       \/        \/\/          \/     \/             \/           \/        /_____/  
+
+------------------------------------------------------------------------------------- */
+
+
+{
+    /* ---------------------------------------- */
+    /*             [Bar geometry]               */
+    /* ---------------------------------------- */
+
+    "height": 30, 
+    "spacing": 0,
+    "margin-top": 7,
+    "margin-right": 300,
+    "margin-bottom": 0,
+    "margin-left": 300,
+
+    /* ---------------------------------------- */
+    /*           [Modules position]             */
+    /* ---------------------------------------- */
+
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+    ],
+    "modules-right": [
+        "tray",
+        "pulseaudio",
+        "network",
+        "battery",
+        "clock"
+    ],
+
+    /* ---------------------------------------- */
+    /*           [Modules config]               */
+    /* ---------------------------------------- */
+
+    "hyprland/workspaces": {
+           "on-click": "activate",
+           "disable-scroll": true,
+           "all-outputs": true,
+           "format": "{icon}",
+           "persistent-workspaces": {
+                "*": [ 1,2,3,4 ]
+            },
+           "format-icons": {
+               "1": "",
+               "2": "",
+               "3": "",
+               "4": "󰊗",
+               "urgent": "",
+               "focused": "",
+               "default": ""
+           }
+    },
+
+    "tray": {
+        "spacing": 10
+    },
+
+    "clock": {
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}"
+    },
+
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon}", 
+        "format-full": "{capacity}%",
+        "format-charging": "{capacity}% ",
+        "format-plugged": "{capacity}% ",
+        "format-alt": "{time} {icon}",
+        "format-icons": [" ", " ", " ", " ", " "]
+    },
+
+    "network": {
+        "format-wifi": "", 
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "Disconnected ⚠",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+    },
+
+    "pulseaudio": {
+        "format": "{icon}", 
+        "format-bluetooth": "{icon}", 
+        "format-bluetooth-muted": "{icon}", 
+        "format-muted": "{format_source}",
+        "format-source": "",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        }
+    }
+    }
+
+}

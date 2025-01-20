@@ -1,0 +1,63 @@
+@import url('/home/camilo/.config/misc/theme.css');
+
+
+/* -------------------------------------------------- 
+   __      __       _____.__                        
+  /  \    /  \_____/ ____\__|   ____   ______ ______
+  \   \/\/   /  _ \   __\|  | _/ ___\ /  ___//  ___/
+   \        (  <_> )  |  |  | \  \___ \___ \ \___ \ 
+    \__/\  / \____/|__|  |__|  \___  >____  >____  >
+         \/                        \/     \/     \/ 
+   ----------------------------------------------- */
+
+/* ---------------------------------------- */
+/*          [General wofi config]           */
+/* ---------------------------------------- */
+
+* {
+    font-family: JetBrains Mono Regular;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#window {
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: @background;
+    opacity: 0.98;
+}
+
+/* ---------------------------------------- */
+/*                 [Items]                  */
+/* ---------------------------------------- */
+
+#input {
+    margin: 20px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+#scroll {
+    margin-bottom: 10px;
+}
+
+#entry {
+    margin: 0px 10px 0px 10px;
+    color: white;
+}
+
+#entry > box {
+    border: none;
+    margin-left: 16px;
+}
+
+#entry image {
+    padding-right: 10px;
+}
+
+#entry:selected {
+    background-color: black;
+    border: 1px white solid;
+    border-radius: 4px;
+}
