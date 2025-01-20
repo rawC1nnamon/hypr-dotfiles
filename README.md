@@ -3,6 +3,7 @@
 Specifications: 
 - OS: Arch Linux 
 - Terminal: [Kitty](https://github.com/kovidgoyal/kitty)
+- Shell: [Fish](https://fishshell.com/docs/current/cmds/fish_prompt.html)
 - Launcher: [Wofi](https://archlinux.org/packages/extra/x86_64/wofi/)
 - Bar: [Waybar](https://github.com/Alexays/Waybar)
 - File Manager: [Thunar](https://github.com/xfce-mirror/thunar) 
@@ -15,5 +16,7 @@ Specifications:
 ![Desktop](https://github.com/user-attachments/assets/0ce8b600-bbf5-47f4-bb46-a3066614ca88)
 ![Terminal_Thunar](https://github.com/user-attachments/assets/49080a99-572a-40e5-87cf-a2a7e5f75b79)
 ![Wofi](https://github.com/user-attachments/assets/33c5d815-c8ea-47fb-ae71-8b761cee7bd0)
+![Zen](https://github.com/user-attachments/assets/4d74b85b-9745-42fb-adb0-99ab6b31a2da)
+
 
 
