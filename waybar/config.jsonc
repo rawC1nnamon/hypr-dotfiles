@@ -79,17 +79,15 @@
         "format-full": "{capacity}%",
         "format-charging": "{capacity}% ",
         "format-plugged": "{capacity}% ",
-        "format-alt": "{time} {icon}",
         "format-icons": [" ", " ", " ", " ", " "]
     },
 
     "network": {
         "format-wifi": "", 
-        "format-ethernet": "{ipaddr}/{cidr} ",
-        "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-ethernet": "󰆧",
+        "tooltip-format": "{ifname}: {ipaddr} ",
         "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "Disconnected ⚠",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+        "format-disconnected": "Disconnected ⚠"
     },
 
     "pulseaudio": {
